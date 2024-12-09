@@ -1,0 +1,43 @@
+/* Dashboard Page Styles */
+.dashboard-container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.event-section {
+    margin-top: 20px;
+}
+
+.event-item {
+    padding: 15px;
+    background-color: #f8f8f8;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-item h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.event-item p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.event-item .status-upcoming {
+    background-color: #ffeb3b;
+}
+
+.event-item .status-happening {
+    background-color: #8bc34a;
+}
+
+.event-item .status-closed {
+    background-color: #f44336;
+}
